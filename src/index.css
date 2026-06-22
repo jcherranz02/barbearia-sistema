@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@keyframes custom-blink {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  50% {
+    opacity: 0.3;
+    color: #EF4444;
+    transform: scale(0.98);
+  }
+}
+
+.animate-custom-blink {
+  animation: custom-blink 0.8s infinite ease-in-out;
+}

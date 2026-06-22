@@ -1,0 +1,6 @@
+{
+  "name": "Barbearia Queue Dashboard",
+  "description": "Painel de controle para barbeiros e solicitação de senhas em tempo real para os clientes pelo celular ou tablet em Wi-Fi/4G.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
